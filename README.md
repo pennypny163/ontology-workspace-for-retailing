@@ -5,7 +5,7 @@
 
 | 首页/总览 | 资产类型 | 关系图谱 | 数据看板 |
 |:---:|:---:|:---:|:---:|
-| ![](static/screenshots/截屏2026-04-14 11.47.19.png) | ![](static/screenshots/截屏2026-04-14 11.47.28.png) | ![](static/screenshots/截屏2026-04-14 11.49.49.png) | ![](static/screenshots/截屏2026-04-14 11.51.11.png) |
+| [![首页](static/screenshots/screenshot1.png)](static/screenshots/screenshot1.png) | [![资产类型](static/screenshots/screenshot2.png)](static/screenshots/screenshot2.png) | [![关系图谱](static/screenshots/screenshot3.png)](static/screenshots/screenshot3.png) | [![数据看板](static/screenshots/screenshot10.png)](static/screenshots/screenshot10.png) |
 
 1. **首页/总览**：本体工作空间入口，聚合AI结构化、资产上传、复用等能力。
 2. **资产类型**：本体驱动的多维资产分类，支持行业、场景、角色、能力等结构化管理。
