@@ -77,7 +77,7 @@ npm run dev -- --host 0.0.0.0
 
 ## 一键启动（Docker + Docker Compose）
 
-如果你希望别人直接复用，推荐使用 `docker-compose`：
+如果你希望直接复用，推荐使用 `docker-compose`：
 
 ```bash
 docker compose up --build
@@ -93,10 +93,3 @@ docker compose up --build
 - 前端通过 `vite.config.ts` 的代理配置，将 `/api` 请求转发到 `http://localhost:8000`
 - 后端在首次启动时会自动创建缺失表结构
 - 如果需要重建数据库，可先删除本地数据库，然后重新创建
-
-## 可复用建议
-
-- 直接上传 GitHub 时保留 `README.md`、`.env.example` 和 `docker-compose.yml`
-- 不要提交 `.env`
-- 让别人通过 `docker compose up --build` 一键启动
-- 如果本地调试，先启动后端，再启动前端
